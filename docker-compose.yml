@@ -8,4 +8,4 @@ services:
       - ./next.config.js:/app/next.config.js
       - ./pages/index.tsx:/app/pages/index.tsx
     ports:
-      - "80:3000"
+      - "3000:3000"

@@ -51,7 +51,7 @@ const Heros = () => {
       <div className="flex flex-col md:flex-row pt-20">
         <div className="flex flex-col items-center z-0 md:w-1/2">
           <div className="flex flex-col justify-center  mx-10 max-width-component w-full px-10">
-            <img src="fendev_no_bg.png" alt="" />
+            <img src="fendev_no_bg.svg" alt="" />
           </div>
         </div>
         <div className="flex flex-col items-center z-0 md:w-1/2">
