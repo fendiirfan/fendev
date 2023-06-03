@@ -1,5 +1,5 @@
 export const dataAbout = {
-  "picture": "/fendev_hoodie.png",
+  "picture": "/fendev_hoodie.webp",
   "name": "Hello i'm Fendi Irfan Amorokhman",
   "role": "A Data & Artificial Intelligence Enthusiast",
   "work": "Data Engineer at Oyindonesia.com",
