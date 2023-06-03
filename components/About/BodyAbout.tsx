@@ -6,7 +6,7 @@ const BodyAbout = () => {
     <>
       <div className="flex flex-col items-center">
         <div className="max-w-[800px] w-full mt-4 px-2 mb-10 ">
-          <ReactMarkdown className="line-break" children={dataBody} remarkPlugins={[remarkGfm]}/>
+          <ReactMarkdown className="line-break text-justify" children={dataBody} remarkPlugins={[remarkGfm]}/>
         </div>
       </div>
     </>
