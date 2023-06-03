@@ -1,6 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiFillFileText } from 'react-icons/ai';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+// import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const Heros = () => {
@@ -52,16 +53,9 @@ const Heros = () => {
     <>
       <div className="flex flex-col md:flex-row pt-20">
         <div className="flex flex-col items-center z-0 md:w-1/2">
-          {isLoading ? ( // Menampilkan animasi loading jika isLoading true
-            <div className="flex justify-center items-center w-full h-full">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
-            </div>
-          ) : (
-            <div className="flex flex-col justify-center mx-10 max-width-component w-full px-10">
-              <img src="fendev_no_bg.png" alt="" />
-              
-            </div>
-          )}
+          <div className="flex flex-col justify-center mx-10 max-width-component w-full px-10">
+            <img src="fendev_no_bg.png" alt="" />
+          </div>
         </div>
         <div className="flex flex-col items-center z-0 md:w-1/2">
           <div className="flex flex-col justify-center pt-10 sm:pt-0 md:min-h-screen mx-10 max-width-component w-full px-10">
