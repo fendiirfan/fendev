@@ -44,10 +44,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           "https://instagram.com/fattahilaaf_",
         ]}
       />
-      {/* <NextSeo 
-        title="Hi i'm Affan"
-        description="Hello my name Ananda Affan Fattahila, You can call me Affan. I'm currently studying to become a Software Engineer and Product Engineer. See you next time!"
-      /> */}
       <Component {...pageProps} />
     </div>
   )
