@@ -10,7 +10,7 @@ export const dataProjects = [
   {
     "name": "Antriin Web Application",
     "stacks": ["golang","echo", "javascript", "nextjs", "postgresql", "tailwindcss"],
-    "description": "Antriin merupakan sebuah webapps untuk membuat dan mengikuti antrian jadi lebih mudah dan menyenangkan.",
+    "description": "Antriin is a web application designed to make queuing and queue management easier and more enjoyable",
     "picture": "/projects/antriin.svg",
     "date": "December 2021",
     "link_project": "https://antriin.vercel.app"

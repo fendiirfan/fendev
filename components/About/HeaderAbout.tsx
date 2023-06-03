@@ -8,7 +8,7 @@ const HeaderAbout = () => {
           <div className="flex flex-col items-center ">
             <div className="w-[250px] h-[250px]  relative rounded-full object-cover bg-yellow-400">
               <Image
-                alt="fanzru"
+                alt=""
                 src={dataAbout.picture}
                 layout="fill"
                 className="object-cover rounded-full"

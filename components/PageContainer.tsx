@@ -9,8 +9,8 @@ const PageContainer: FC = ({ children,...props}) => {
       <Head >
         <meta
           name="keywords"
-          content="fanzru, Ananda Affan Fattahila, Affan, Ananda, Fattahila, panzru"
-          title="Hi Im Fanzru"
+          content="Fendi Irfan Amorokhman, Fendi"
+          title="Hi Im Fendi"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>

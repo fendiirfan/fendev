@@ -7,6 +7,7 @@ const Heros = () => {
   const router = useRouter();
   const [text, setText] = useState('');
   const [showCursor, setShowCursor] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // State untuk animasi loading
 
   const typedText = "Hello I’m Fendi Irfan Amorokhman 👋 ";
   const delay = 100; // Delay between each character (in milliseconds)
@@ -32,6 +33,7 @@ const Heros = () => {
           if (prevText.length === typedText.length) {
             isDeleting = true;
             clearInterval(intervalId);
+            setIsLoading(false); // Menghentikan animasi loading setelah teks selesai ditampilkan
             return prevText;
           } else {
             currentIndex++;
@@ -50,9 +52,15 @@ const Heros = () => {
     <>
       <div className="flex flex-col md:flex-row pt-20">
         <div className="flex flex-col items-center z-0 md:w-1/2">
-          <div className="flex flex-col justify-center  mx-10 max-width-component w-full px-10">
-            <img src="fendev_no_bg.svg" alt="" />
-          </div>
+          {isLoading ? ( // Menampilkan animasi loading jika isLoading true
+            <div className="flex justify-center items-center w-full h-full">
+              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+            </div>
+          ) : (
+            <div className="flex flex-col justify-center mx-10 max-width-component w-full px-10">
+              <img src="fendev_no_bg.svg" alt="" />
+            </div>
+          )}
         </div>
         <div className="flex flex-col items-center z-0 md:w-1/2">
           <div className="flex flex-col justify-center pt-10 sm:pt-0 md:min-h-screen mx-10 max-width-component w-full px-10">

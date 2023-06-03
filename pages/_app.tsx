@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultSeo
         description={"Hello my name Fendi Irfan Amorokhman, You can call me Fendi. I am Currently Pursuing a Career in Data and Artificial Intelligence."}
         defaultTitle="Hi i'm Fendi."
-        titleTemplate={`Fanzru.dev`}
+        titleTemplate={`Fendev.my.id`}
         openGraph={{
           title: "Hi i'm Fendi.",
           description: "Hello my name Fendi Irfan Amorokhman, You can call me Fendi. I am Currently Pursuing a Career in Data and Artificial Intelligence.",
@@ -30,17 +30,17 @@ function MyApp({ Component, pageProps }: AppProps) {
           ],
         }}
         twitter={{
-          handle: "@fanzru",
+          handle: "",
           cardType: "summary_large_image",
         }}
       />
       <SocialProfileJsonLd
         type="Person"
-        name="Ananda Affan Fattahila"
-        url={"fanzru.dev"}
+        name="Fendi Irfan Amorokhman"
+        url={"fendev.my.id"}
         sameAs={[
-          "http://www.linkedin.com/in/fanzru",
-          "https://github.com/fanzru",
+          "http://www.linkedin.com/in/fendiirfan",
+          "https://github.com/fendiirfan",
           "https://instagram.com/fattahilaaf_",
         ]}
       />
