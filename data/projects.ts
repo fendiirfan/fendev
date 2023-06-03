@@ -2,7 +2,7 @@ export const dataProjects = [
   {
     "name": "Machine Translation Kailinese",
     "stacks": ["streamlit","mysql", "python", "transformer", "pytorch", "idcloudhost"],
-    "description": "Website X-CAMP Lab Internet of Things milik PT XL Axiata Tbk.",
+    "description": "Machine translation (NLP) platform for the Indonesian-Kailinese language, utilizing the pretrained IndoBART-V2 model based on the BART model",
     "picture": "/projects/translate_kaili.svg",
     "date": "May 2023",
     "link_project": "https://translate.kailidev.com/"
