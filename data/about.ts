@@ -6,7 +6,7 @@ export const dataAbout = {
 }
 
 export const dataBody = `
-Hello my name is  **Fendi Irfan Amorokhman**, you can call me  **Fendi**. I'm currently  **22**, because a lot of people talk about being 22 years old.  **Nice to meet you,**  I hope we can have a  **good relationship**.
+Hello, my name is **Fendi Irfan Amorokhman**, but you can call me **Fendi**. I am currently **21** years old, as many people often talk about this age. It's a pleasure to meet you, and I hope we can build a strong and positive collaboration.
 
 Being a highly motivated and enthusiastic data professional with a passion for machine learning modeling and infra, I believe that my skills and experience make me an ideal candidate for the role. With a Bachelor of Informatics degree from Telkom University and a current GPA of 3.82, I possess a strong background in data engineering, machine learning, and data analysis. My internships as a Data Engineer and DevOps Engineer at a reputable startup have allowed me to sharpen my skills in data pipeline, CI/CD, and infrastructure. Furthermore, I have won several national data competitions and published an international paper in the NLP field.
 
