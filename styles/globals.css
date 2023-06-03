@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.font-quicksand{
+  font-family: 'Quicksand', sans-serif;
+}
+.max-width-component {
+  max-width: 1050px;  
+}
+
+.z-top {
+  z-index: 999;
+}
+.z-top-top {
+  z-index: 9999;
+}
+
+@layer utilities {
+  .scroll-margin-nav {
+    scroll-margin-top: 46px;
+  }
+  @screen md {
+    .scroll-margin-nav {
+      scroll-margin-top: 66px;
+    }
+  }
+}
+.line-break {
+  white-space: pre-wrap;
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold md:text-5xl;
+  }
+
+  h2 {
+    @apply text-2xl font-bold md:text-4xl;
+  }
+
+  h3 {
+    @apply text-xl font-bold md:text-3xl;
+  }
+
+  h4 {
+    @apply text-lg font-bold md:text-xl;
+  }
+}
