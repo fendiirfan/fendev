@@ -54,7 +54,22 @@ const Heros = () => {
       <div className="flex flex-col md:flex-row pt-20">
         <div className="flex flex-col items-center z-0 md:w-1/2">
           <div className="flex flex-col justify-center mx-10 max-width-component w-full px-10">
-            <img src="fendev_no_bg.png" alt="" />
+            {/* <img src="fendev_no_bg.webp" alt="" /> */}
+            <img
+              sizes="(max-width: 1400px) 100vw, 1400px"
+              srcSet="
+              fendev_no_bg_vvjroq_c_scale,w_200.webp 200w,
+              fendev_no_bg_vvjroq_c_scale,w_502.webp 502w,
+              fendev_no_bg_vvjroq_c_scale,w_763.webp 763w,
+              fendev_no_bg_vvjroq_c_scale,w_917.webp 917w,
+              fendev_no_bg_vvjroq_c_scale,w_1043.webp 1043w,
+              fendev_no_bg_vvjroq_c_scale,w_1099.webp 1099w,
+              fendev_no_bg_vvjroq_c_scale,w_1271.webp 1271w,
+              fendev_no_bg_vvjroq_c_scale,w_1377.webp 1377w,
+              fendev_no_bg_vvjroq_c_scale,w_1396.webp 1396w,
+              fendev_no_bg_vvjroq_c_scale,w_1400.webp 1400w"
+              src="fendev_no_bg_vvjroq_c_scale,w_1400.webp"
+              alt=""></img>
           </div>
         </div>
         <div className="flex flex-col items-center z-0 md:w-1/2">
