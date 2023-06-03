@@ -59,6 +59,7 @@ const Heros = () => {
           ) : (
             <div className="flex flex-col justify-center mx-10 max-width-component w-full px-10">
               <img src="fendev_no_bg.png" alt="" />
+              
             </div>
           )}
         </div>
