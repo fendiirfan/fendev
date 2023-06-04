@@ -10,8 +10,8 @@ export const dataProjects = [
   {
     "name": "ITE Law Violation Detector Web Application",
     "stacks": ["python","streamlit", "tensorflow"],
-    "description": "ITE Law Violation Detector Web Application is a powerful tool developed using Python, Streamlit, and TensorFlow, designed to identify and flag any violations of the Information and Electronic Transactions (ITE) Law.",
-    "picture": "/projects/ITE Detector.webp",
+    "description": 'The ITE Law Violation Detector Web Application is a robust tool designed to identify and flag any infringements of the Information and Electronic Transactions (ITE) Law. It has been published in an international journal under the title "ITE Law Enforcement Support through Detection Tools for Fake News, Hate Speech, and Insults in Digital Media."',
+    "picture": "/projects/ITE_Detector.webp",
     "date": "January 2022",
     "link_project": "http://ite-detector.fendev.my.id:8503/"
   },

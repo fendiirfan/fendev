@@ -24,7 +24,7 @@ const CardProject = () => {
                     </NextLink>
                     
                     <p className="opacity-70 text-sm">{`Created at ${data.date}`}</p>
-                    <p className="mt-2 opacity-70 text-sm">{data.description}</p>
+                    <p className="mt-2 opacity-70 text-sm text-justify">{data.description}</p>
                     <div className="flex flex-wrap gap-2 mt-2 mb-4">
                       {
                         data.stacks.map((stack,i)=> {
