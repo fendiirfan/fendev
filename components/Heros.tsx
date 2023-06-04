@@ -97,7 +97,7 @@ const Heros = () => {
               <button onClick={() => { router.push("https://www.linkedin.com/in/fendiirfan/") }} className="border-2 border-dashed btn btn-outline">
                 <AiFillLinkedin />
               </button>
-              <button onClick={() => { router.push("https://docs.google.com/document/d/1M6eMRXu_2Vzi9TGe2EJdzDGmSGIpGh_GzqYijls50qQ/edit?usp=sharing") }} className="border-2 border-dashed btn btn-outline">
+              <button onClick={() => { router.push("https://drive.google.com/file/d/1-kDMbYa7Wo9cnh8Pr4jYTQ99tH_zHBW3/view?usp=sharing") }} className="border-2 border-dashed btn btn-outline">
                 <AiFillFileText />
               </button>
             </div>

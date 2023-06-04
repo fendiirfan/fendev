@@ -18,5 +18,5 @@ I really like and am passionate about  **connecting**  with everyone, so if you 
 **Linkedin** - [https://www.linkedin.com/in/fendiirfan/](https://www.linkedin.com/in/fendiirfan/)
 
 
-In addition, you can  [**view and read my resume here.**](https://docs.google.com/document/d/1M6eMRXu_2Vzi9TGe2EJdzDGmSGIpGh_GzqYijls50qQ/edit?usp=sharing)  I am very grateful, because you have visited my profile..
+In addition, you can  [**view and read my resume here.**](https://drive.google.com/file/d/1-kDMbYa7Wo9cnh8Pr4jYTQ99tH_zHBW3/view?usp=sharing)  I am very grateful, because you have visited my profile..
 `
