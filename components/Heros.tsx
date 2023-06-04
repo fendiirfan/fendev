@@ -79,7 +79,7 @@ const Heros = () => {
               {showCursor && <span className="animate-blink">|</span>}
             </div>
             <div className="mt-5">
-              <p>
+              <p className='text-justify'>
                 You can call me Fendi, I'm a Data and Airtificial Intelligence Engineer Entusiast.
                 I'm Currently working as a{' '}
                 <a className="font-semibold underline decoration-yellow-400 decoration-2">Data Engineer</a> at{' '}
