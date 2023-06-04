@@ -5,13 +5,13 @@ import { NextSeo,DefaultSeo,SocialProfileJsonLd } from 'next-seo'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="font-quicksand">
-      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-E6P89SPPPD`} />
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-P23EEJWN9X`} />
       <Script strategy="lazyOnload">
           {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-E6P89SPPPD', {
+              gtag('config', 'G-P23EEJWN9X', {
               page_path: window.location.pathname,
               });
           `}
