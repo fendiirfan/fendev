@@ -16,6 +16,14 @@ export const dataProjects = [
     "link_project": "http://ite-detector.fendev.my.id:8503/"
   },
   {
+    "name": "Covid-19 Dashboard ",
+    "stacks": ["Tableu"],
+    "description": "Covid-19 dashboard is one of the outcomes of a data analysis competition project at UII, which illustrates the relationship between government policies and community mobility with Covid-19 cases.",
+    "picture": "/projects/covid-dashboard.webp",
+    "date": "January 2022",
+    "link_project": "https://public.tableau.com/app/profile/fendi.irfan.amorokhman/viz/Covid-19Dashboard_16863886582410/Dashboard1#1"
+  },
+  {
     "name": "Antriin Web Application",
     "stacks": ["golang","echo", "javascript", "nextjs", "postgresql", "tailwindcss"],
     "description": "Antriin is a web application designed to make queuing and queue management easier and more enjoyable",
